@@ -5,7 +5,7 @@ RUN mkdir /app
 RUN chown 1001 /app
 USER 1001
 RUN cd /app; git clone https://github.com/kbisen93/Docker-Demo.git
-WORKDIR /app/flaskapp
+WORKDIR /app/Docker-Demo
 ENV FLASK_APP=app.py
 ENV FLASK_ENV=development
 EXPOSE 5000
