@@ -1,5 +1,5 @@
 FROM python:alpine3.7
-RUN apt-get install git
+#RUN apt-get install git
 RUN mkdir /app
 RUN cd /app; git clone https://github.com/kbisen93/Docker-Demo.git
 WORKDIR /app/Docker-Demo
