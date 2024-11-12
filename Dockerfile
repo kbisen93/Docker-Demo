@@ -9,4 +9,4 @@ WORKDIR /app/Docker-Demo
 ENV FLASK_APP=app.py
 ENV FLASK_ENV=development
 EXPOSE 5000
-CMD ["python","-m","flask-run","run","--host=0.0.0.0"]
+CMD ["python","-m","flask-run2","run","--host=0.0.0.0"]
